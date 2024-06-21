@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <!-- Remix Icon -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <!-- =======Header====== -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Hello</a>
+                    </li>
+
+                    <li>
+                        <a href="#resume" class="nav__link">Resume</a>
+                    </li>
+
+
+
+                    <li>
+                        <a href="#skills" class="nav__link">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#lang" class="nav__link">Languages and Certificates</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav__link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- =======Main====== -->
+    <main class="main">
+        <!-- =======Home====== -->
+        <section class="home" id="home">
+            <div class="home__container container grid">
+                <!-- <img src="" alt="" class="home__img"> -->
+                <div class="home__data">
+                    <h2 class="home__name">Hello</h2>
+                    <h1 class="home__name">I AM ESHWARI SONAWANE</h1>
+                    <a href="./assets/img/ATS_Friendly_Technical_Resume (9).pdf" target="_blank" class="button1">
+                        <i class=""></i> HIRE ME
+                    </a>
+                    <a href="./assets/img/ATS_Friendly_Technical_Resume (9).pdf" target="_blank" class="button1">
+                        <i class=""></i> GET CV
+                    </a>
+                    <!-- <dl class="home__list">
+                        <dt>AGE</dt>
+                        <dd>:21</dd>
+                        <dt>PHONE</dt>
+                        <dd>:+91 7758996517</dd>
+                        <dt>EMAIL</dt>
+                        <dd>:eshh1709@gmail.com</dd>
+                        <dt>ADDRESS</dt>
+                        <dd>:Syracuse, New York</dd>
+                    </dl> -->
+                    <div class="home__socials">
+                        <a href="https://github.com/EshwariS17" target="_blank" class="home__socials-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/eshh-sonawane/" target="_blank" class="home__socials-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======Hello====== -->
+        <section class="hello section container">
+            <h2 class="section__title">Hi_</h2>
+            <p class="hello__details text-lg">Engineering management student with a strong foundation in technical expertise and leadership skills. Experienced in project coordination, team management, and process improvement. Eager to leverage academic training and hands-on experience
+                to contribute effectively to a dynamic team and drive organizational success.
+
+            </p>
+            <a href="./assets/img/ATS_Friendly_Technical_Resume (9).pdf" target="_blank" class="button button--flex text-sm">
+                <i class="ri-download-line"></i> DOWNLOAD CV
+            </a>
+        </section>
+
+        <!-- =======Services======
+        <section class="services section container" id="services">
+            <h2 class="section__title">Services_</h2>
+            <div class="service__container grid">
+                <div class="services__items">
+                    <div class="icon__box">
+                        <img src="./assets/img/web-design.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">WEB DESIGN</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+                <div class="services__items">
+
+                    <div class="icon__box">
+                        <img src="./assets/img/laptop.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">WEB DEVELOPMENT</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+                <div class="services__items">
+                    <div class="icon__box">
+                        <img src="./assets/img/paint-palette.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">CREATIVE DESIGN</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+                <div class="services__items">
+                    <div class="icon__box">
+                        <img src="./assets/img/smartphone-call.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">RESPONSIVE DESIGN</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+                <div class="services__items">
+                    <div class="icon__box">
+                        <img src="./assets/img/verified.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">BRANDING IDENTITY</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+                <div class="services__items">
+                    <div class="icon__box">
+                        <img src="./assets/img/operator.png" alt="" class="services__icon">
+                        <div class="services__dot">
+                            <span class="dot"></span>
+                        </div>
+                    </div>
+                    <h3 class="services__title text-lg">24/7 SUPPORT</h3>
+                    <p class="services__detail">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Assumenda pariatur quisquam dolores omnis nulla commodi rerum fugit repellat odio repellendus!</p>
+                </div>
+
+            </div>
+        </section> -->
+
+        <!-- =======Resume====== -->
+        <section class="section container" id="resume">
+            <h2 class="section__title">Resume_</h2>
+            <div class="resume__container grid">
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">EDUCATION</h3>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Syracuse University, Syracuse New York</h3>
+                        <p class="resume__date text-sm">2024-2026</p>
+                        <p class="resume__discription text-lg">M.S. - Engineering Management </p>
+                        <p style="font-size: small;"> Secured 30% merit-based scholarship for entire course.</p>
+                    </div>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Dr D Y Patil College Of Engineering</h3>
+                        <p class="resume__date text-sm">2020-2024</p>
+                        <p class="resume__discription text-lg">B.E in Computer Science and Engineering </p>
+                        <p style="font-size: small;">Cumulative CGPA : 8.40/10</p>
+                        <p style="font-size: small;">Management Advisor (CompSA Club)</p>
+                    </div>
+                    <!-- <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">SHRAMIK JUNIOR COLLEGE, SANGAMNER</h3>
+                        <p class="resume__date text-sm">2018-2020</p>
+                        <p class="resume__discription text-lg">Higher Secondary Education</p>
+                    </div>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">SAHYADRI VIDYALAYA, SANGAMNER</h3>
+                        <p class="resume__date text-sm">2017-2018</p>
+                        <p class="resume__discription text-lg">Secondary School Certificate </p>
+                    </div> -->
+                </div>
+                <div class="resume__data">
+                    <h3 class="resume__title text-sm">ACTIVITES</h3>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Research Paper — Research Assistant</h3>
+                        <p class="resume__date text-sm">Jan 2023 – Feb 2023
+                        </p>
+                        <p class="resume__discription text-lg">Machine Learning</p>
+                        <p style="font-size: small;"> Assisted Professor Dr. Amol in his research work paper creation on ”Enhancing Data Governance and Integrity through Blockchain and Machine Learning.”</p><br>
+                        <p style="font-size: small;"> Worked on research paper publishing with Professor Dr. Nalini, addressing the topic - “The pivotal role of Artificial Intelligence in Digital Twining”.</p><br>
+                        <p style="font-size: small;"> Contributed in documenting a paper on “Estimation of Power Consumption using Machine Learning”, as a part of my final year project.
+                        </p>
+                        <!-- <p class="resume__discription text-lg">Web Development and Designing Intern</p> -->
+                    </div>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">Project — Estimation Of Power Consumption Using Machine Learning</h3>
+                        <p class="resume__date text-sm">2023 – 2024
+                        </p>
+                        <p class="resume__discription text-lg">Machine Learning Project</p>
+                        <p style="font-size: small;"> Developed the model by using Prophet (Python Framework) to estimate the power consumption”</p><br>
+                        <!-- <p style="font-size: small;"> Worked on research paper publishing with Professor Dr. Nalini, addressing the topic - “The pivotal role of Artificial Intelligence in Digital Twining”.</p><br>
+                        <p style="font-size: small;"> Contributed in documenting a paper on “Estimation of Power Consumption using Machine Learning”, as a part of my final year project.
+                        </p> -->
+                        <!-- <p class="resume__discription text-lg">Web Development and Designing Intern</p> -->
+                    </div>
+                    <div class="resume__item">
+                        <h3 class="resume__subtitle text-sm">CompSA Club — Management Advisor</h3>
+                        <p class="resume__date text-sm">2022 – 2024
+                        </p>
+                        <p class="resume__discription text-lg">Computer Science and Engineering Dept</p>
+                        <p style="font-size: small;">Successfully conducted and managed more than 20 events at university level.</p><br>
+                        <p style="font-size: small;"> Assembled and managed individuals to make a well-matched & high performing team.</p><br>
+                        <!-- <p style="font-size: small;"> Contributed in documenting a paper on “Estimation of Power Consumption using Machine Learning”, as a part of my final year project.
+                        </p> -->
+                        <!-- <p class="resume__discription text-lg">Web Development and Designing Intern</p> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======Skills====== -->
+        <section class="section container">
+            <h2 class="section__title" id="skills">Skills_</h2>
+            <div class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">Hard Skills</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Database Management System</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Python Programming,</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Microsoft Excel Word,</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Google Sheets Docs</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">Soft Skills:</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Great communication skills</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm"> Problem Solving</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Negotiation</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm"> Leadership and Teamwork</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Languages and Certificates -->
+
+
+        <section class="section container" id="lang">
+            <h2 class="section__title">LANGUAGES AND CERTIFICATIONS</h2>
+            <div class="skills__container grid">
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">LANGUAGES</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">English</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Hindi </p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm"> Marathi</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Google Sheets Docs</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+
+                <div class="skills__content">
+                    <h3 class="skills__title text-sm">CERTIFICATIONS:</h3>
+                    <div class="skills__list grid">
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Coursera’s Introduction to Web Development Certificate</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Udemy’s MySQL</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <!-- <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm">Negotiation</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div>
+
+                        <div class="skills__data">
+                            <div class="skills__title">
+                                <p class="skills__name text-sm"> Leadership and Teamwork</p>
+                                <span class="skills__number text-sm"></span>
+                            </div>
+
+                            <div class="skills__bar">
+                                <span class="skills__percentage" style="width: 100%"></span>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- =======Projects====== -->
+        <!-- <section class="work section container" id="portfolio">
+            <h2 class="section__title">Work_</h2>
+            <div class="project__categories">
+                <button class="category__btn text-xs active-work" data-filter="all">ALL</button>
+                <button class="category__btn text-xs" data-filter=".web">WEB-SITES</button>
+                <button class="category__btn text-xs" data-filter=".landing">LANDING PAGES</button>
+            </div>
+            <div class="projects__container grid">
+                <div class="project__item grid mix web">
+                    <img src="./assets/img/project-1.png" alt="" class="project__img">
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Lorem ipsum dolor sit amet.</h3>
+                        <p class="project__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nam porro quibusdam sequi aliquam labore? Perspiciatis quam in, maiores, doloremque temporibus quisquam consequatur cupiditate odio sunt id at eveniet dolore?</p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="" class="project__link text-sm">www.google.com</a>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix web">
+                    <img src="./assets/img/project-2.png" alt="" class="project__img">
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Lorem ipsum dolor sit amet.</h3>
+                        <p class="project__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nam porro quibusdam sequi aliquam labore? Perspiciatis quam in, maiores, doloremque temporibus quisquam consequatur cupiditate odio sunt id at eveniet dolore?</p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="" class="project__link text-sm">www.google.com</a>
+                    </div>
+                </div>
+
+                <div class="project__item grid mix landing">
+                    <img src="./assets/img/project-3.png" alt="" class="project__img">
+                    <div class="project__data">
+                        <h3 class="project__title text-lg">Lorem ipsum dolor sit amet.</h3>
+                        <p class="project__discription">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam nam porro quibusdam sequi aliquam labore? Perspiciatis quam in, maiores, doloremque temporibus quisquam consequatur cupiditate odio sunt id at eveniet dolore?</p>
+                        <h4 class="project__stack text-xs">USED STACK:</h4>
+                        <ul class="tags text-sm">
+                            <li>html5</li>
+                            <li>css3</li>
+                            <li>JavaScript</li>
+                        </ul>
+                        <a href="" class="project__link text-sm">www.google.com</a>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="form">
+            <div id="form1" style="background: #4a4a4a; padding: 20px; border-radius: 8px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); ">
+                <h2 style="margin-bottom: 20px; font-size: 24px; color: #fff;">Contact Us</h2>
+                <form id="form2">
+                    <div style="margin-bottom: 15px;">
+                        <label for="name" style="display: block; margin-bottom: 5px; color: #fff;">Name:</label>
+                        <input type="text" id="name" name="name" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="email" style="display: block; margin-bottom: 5px; color: #fff;">Email:</label>
+                        <input type="email" id="email" name="email" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px;">
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <label for="message" style="display: block; margin-bottom: 5px; color: #fff;">Message:</label>
+                        <textarea id="message" name="message" required style="width: 100%; padding: 10px; border: 1px solid #ccc; border-radius: 4px; resize: vertical; height: 100px;"></textarea>
+                    </div>
+                    <div style="margin-bottom: 15px;">
+                        <button type="submit" style="width: 100%; padding: 10px; background-color: #5cb85c; border: none; border-radius: 4px; color: #fff; font-size: 16px; cursor: pointer;">Submit</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <!-- =======Contact====== -->
+        <section class="contact section" id="contact">
+            <div class="contact__content container">
+                <h2 class="section__title">Get in touch_</h2>
+
+                <div class="contact__container grid">
+                    <div class="contact__info">
+                        <dl class="contact__list">
+                            <dt>Phone:</dt>
+                            <dd>+91 7758996517</dd>
+                            <dt>Email:</dt>
+                            <dd>eshh1709@gmail.com</dd>
+                        </dl>
+                        <ul class="contact__socials">
+                            <li>
+                                <a href="https://www.linkedin.com/in/eshh-sonawane/" class="contact__social-link">Linkedin</a>
+                            </li>
+                            <li>
+                                <a href="https://github.com/EshwariS17" class="contact__social-link">Github</a>
+                            </li>
+                            <!-- <li>
+                                <a href="#" class="contact__social-link">Leetcode</a>
+                            </li> -->
+                            <!-- <li>
+                                <a href="#" class="contact__social-link">Instagram</a>
+                            </li> -->
+                        </ul>
+                    </div>
+
+                    <div class="contact__form">
+                        <p class="contact__form-title">Or just write email to me_</p>
+
+                        <form id="email-button" action="mailto:eshh1709@gmail.com" method="post" enctype="text/plain">
+                            <input type="submit" value="Send Email">
+                            <!-- <i class="ri-mail-line"></i> -->
+                        </form>
+
+
+
+
+                        <!-- <form action="" id="contact-form">
+                            <div class="contact__input-div">
+                                <input type="text" name="name" placeholder="Your name" id="contact-name" class="contact__input">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <input type="email" name="email" placeholder="Your e-mail" id="contact-email" class="contact__input">
+                            </div>
+
+                            <div class="contact__input-div">
+                                <textarea name="message" class="contact__input textarea" placeholder="Type the message here" id="message" cols="30" rows="10"></textarea>
+                            </div>
+                            <p class="contact__message text-sm" id="contact__message">Message</p>
+                            <button type="submit" class="button contact__button">SEND</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Mixitup -->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!-- Email js -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <!-- JavaScript -->
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
